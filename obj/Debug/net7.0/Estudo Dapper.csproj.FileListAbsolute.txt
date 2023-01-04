@@ -1,0 +1,52 @@
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/obj/Debug/net7.0/Estudo Dapper.csproj.AssemblyReference.cache
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/obj/Debug/net7.0/Estudo Dapper.GeneratedMSBuildEditorConfig.editorconfig
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/obj/Debug/net7.0/Estudo Dapper.AssemblyInfoInputs.cache
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/obj/Debug/net7.0/Estudo Dapper.AssemblyInfo.cs
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/obj/Debug/net7.0/Estudo Dapper.csproj.CoreCompileInputs.cache
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/bin/Debug/net7.0/Estudo Dapper
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/bin/Debug/net7.0/Estudo Dapper.deps.json
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/bin/Debug/net7.0/Estudo Dapper.runtimeconfig.json
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/bin/Debug/net7.0/Estudo Dapper.dll
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/bin/Debug/net7.0/Estudo Dapper.pdb
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/bin/Debug/net7.0/Azure.Core.dll
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/bin/Debug/net7.0/Azure.Identity.dll
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/bin/Debug/net7.0/Dapper.dll
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/bin/Debug/net7.0/Dapper.Contrib.dll
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/bin/Debug/net7.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/bin/Debug/net7.0/Microsoft.Data.SqlClient.dll
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/bin/Debug/net7.0/Microsoft.Identity.Client.dll
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/bin/Debug/net7.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/bin/Debug/net7.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/bin/Debug/net7.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.dll
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/bin/Debug/net7.0/Microsoft.SqlServer.Server.dll
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/bin/Debug/net7.0/System.Configuration.ConfigurationManager.dll
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/bin/Debug/net7.0/System.Drawing.Common.dll
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/bin/Debug/net7.0/System.Memory.Data.dll
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/bin/Debug/net7.0/System.Runtime.Caching.dll
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/bin/Debug/net7.0/System.Security.Cryptography.ProtectedData.dll
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/bin/Debug/net7.0/System.Security.Permissions.dll
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/bin/Debug/net7.0/System.Windows.Extensions.dll
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/bin/Debug/net7.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/bin/Debug/net7.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/bin/Debug/net7.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/bin/Debug/net7.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/bin/Debug/net7.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/bin/Debug/net7.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/bin/Debug/net7.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/bin/Debug/net7.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/obj/Debug/net7.0/Estudo Dapper.csproj.CopyComplete
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/obj/Debug/net7.0/Estudo Dapper.dll
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/obj/Debug/net7.0/refint/Estudo Dapper.dll
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/obj/Debug/net7.0/Estudo Dapper.pdb
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/obj/Debug/net7.0/Estudo Dapper.genruntimeconfig.cache
+/Users/eduardoserra/Documents/Estudos/Balta/Acesso a dados com .NET, C#, Dapper e SQL Server/Estudo Dapper/obj/Debug/net7.0/ref/Estudo Dapper.dll
