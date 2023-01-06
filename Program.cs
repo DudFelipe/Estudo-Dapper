@@ -1,82 +1,66 @@
 ﻿using Microsoft.Data.SqlClient;
 using Dapper.Contrib.Extensions;
-using Blog.Models;
+using Estudo_Dapper.Models;
+using Estudo_Dapper.Repositories;
 
 const string CONNECTION_STRING = @"Server=localhost,1433;Database=Blog;User Id=sa;Password=1q2w3e4r@#$;TrustServerCertificate=True;";
 
-ReadUsers();
+ReadUsers(OpenConnection());
+ReadRoles(OpenConnection());
+ReadTags(OpenConnection());
 //ReadUser();
 //CreateUser();
 //UpdateUser();
 //DeleteUser();
 
-void ReadUsers()
-{
-    using(var connection = new SqlConnection(CONNECTION_STRING))
-    {
-        var users = connection.GetAll<User>();
 
-        foreach(var user in users)
-        {
-            Console.WriteLine(user.Name);
-        }
-    }
+SqlConnection OpenConnection()
+{
+    var connection = new SqlConnection(CONNECTION_STRING);
+    return connection;
 }
 
-void ReadUser()
+void ReadUsers(SqlConnection connection)
 {
-    using(var connection = new SqlConnection(CONNECTION_STRING))
+    connection = OpenConnection();
+
+    var repository = new Repository<User>(connection);
+    var items = repository.Get();
+    
+    foreach(var item in items)
     {
-        var user = connection.Get<User>(1);
-        Console.WriteLine(user.Name);
+        Console.WriteLine(item.Name);
     }
+
+    connection.Close();
 }
 
-void CreateUser()
+void ReadRoles(SqlConnection connection)
 {
-    var user = new User()
-    {
-        Bio = "Equipe Balta.io",
-        Email = "hello@balta.io",
-        Image = "https://",
-        Name = "Equipe Balta.io",
-        PasswordHash = "HASH",
-        Slug = "equipe-balta"
-    };
+    connection = OpenConnection();
 
-    using(var connection = new SqlConnection(CONNECTION_STRING))
+    var repository = new Repository<Role>(connection);
+    var items = repository.Get();
+    
+    foreach(var item in items)
     {
-        connection.Insert<User>(user);
-        Console.WriteLine("Cadastro realizado com sucesso!");
+        Console.WriteLine(item.Name);
     }
+
+    connection.Close();
 }
 
-void UpdateUser()
+void ReadTags(SqlConnection connection)
 {
-    var user = new User()
-    {
-        Id = 2,
-        Bio = "Equipe | Balta.io",
-        Email = "hello@balta.io",
-        Image = "https://",
-        Name = "Equipe de suporte Balta.io",
-        PasswordHash = "HASH",
-        Slug = "equipe-balta"
-    };
+    connection = OpenConnection();
 
-    using(var connection = new SqlConnection(CONNECTION_STRING))
+    var repository = new Repository<Tag>(connection);
+    var items = repository.Get();
+    
+    foreach(var item in items)
     {
-        connection.Update<User>(user);
-        Console.WriteLine("Cadastro atualizado com sucesso!");
+        Console.WriteLine(item.Name);
     }
-}
 
-void DeleteUser()
-{
-    using(var connection = new SqlConnection(CONNECTION_STRING))
-    {
-        var user = connection.Get<User>(2);
-        connection.Delete<User>(user);
-        Console.WriteLine("Cadastro excluído com sucesso!");
-    }
+    connection.Close();
 }
