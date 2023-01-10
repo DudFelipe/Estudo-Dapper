@@ -1,3 +1,4 @@
+using System.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -53,6 +54,13 @@ namespace Estudo_Dapper.Repositories
                 }, splitOn: "Id");
 
             return users;
+        }
+
+        public void AddUserRole(int idUser, int idRole)
+        {
+            var query = @"INSERT INTO [UserRole] VALUES (@UserId, @RoleId)";
+
+            _connection.Query(query, new {UserId = idUser, RoleId = idRole});
         }
     }
 }

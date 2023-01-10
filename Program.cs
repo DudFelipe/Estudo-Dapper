@@ -1,85 +1,59 @@
 ﻿using Microsoft.Data.SqlClient;
-using Dapper.Contrib.Extensions;
-using Estudo_Dapper.Models;
-using Estudo_Dapper.Repositories;
+using Estudo_Dapper.Screens.TagScreens;
+using Estudo_Dapper;
+using Estudo_Dapper.Screens.UserScreens;
+using Estudo_Dapper.Screens.RoleScreens;
+using Estudo_Dapper.Screens.Relatorios;
 
 const string CONNECTION_STRING = @"Server=localhost,1433;Database=Blog;User Id=sa;Password=1q2w3e4r@#$;TrustServerCertificate=True;";
 
-//CreateUsers(OpenConnection());
-ReadUsers(OpenConnection());
-//ReadRoles(OpenConnection());
-//ReadTags(OpenConnection());
+Database.Connection = new SqlConnection(CONNECTION_STRING);
+Database.Connection.Open();
+
+Load();
+
+Console.ReadKey();
+Database.Connection.Close();
 
 
-SqlConnection OpenConnection()
+static void Load()
 {
-    var connection = new SqlConnection(CONNECTION_STRING);
-    return connection;
-}
+    Console.Clear();
+    Console.WriteLine("Meu Blog");
+    Console.WriteLine("---------------");
+    Console.WriteLine("O que deseja fazer?");
+    Console.WriteLine();
+    Console.WriteLine("1 - Gestão de usuário");
+    Console.WriteLine("2 - Gestão de perfil");
+    Console.WriteLine("3 - Gestão de categoria");
+    Console.WriteLine("4 - Gestão de Tag");
+    Console.WriteLine("5 - Vincular Perfil/Usuario");
+    Console.WriteLine("6 - Vincular Post/Tag");
+    Console.WriteLine("7 - Relatórios");
+    Console.WriteLine();
+    Console.WriteLine();
 
-void ReadUsers(SqlConnection connection)
-{
-    connection = OpenConnection();
+    var option = short.Parse(Console.ReadLine());
 
-    var userRepository = new UserRepository(connection);
-    var items = userRepository.GetWithRoles();
-    
-    foreach(var item in items)
+    switch(option)
     {
-        Console.WriteLine(item.Name);
-        foreach(var role in item.Roles)
-        {
-            Console.WriteLine($" - {role.Name}");
-        }
+        case 1:
+            MenuUserScreen.Load();
+            break;
+        case 2:
+            MenuRoleScreen.Load();
+            break;
+        case 4:
+            MenuTagScreen.Load();
+            break;
+        case 5:
+            AddUserRoleScreen.Load();
+            break;
+        case 7:
+            MenuRelatoriosScreen.Load();
+            break;
+        default:
+            Load();
+            break;
     }
-
-    connection.Close();
-}
-
-void CreateUsers(SqlConnection connection)
-{
-    connection = OpenConnection();
-
-    var user = new User()
-    {
-        Email = "email@balta.io",
-        Bio = "bio",
-        Image = "imagem",
-        Name = "Name",
-        PasswordHash = "hash",
-        Slug = "slug"
-    };
-
-    var repository = new Repository<User>(connection);
-    repository.Create(user);
-}
-
-void ReadRoles(SqlConnection connection)
-{
-    connection = OpenConnection();
-
-    var repository = new Repository<Role>(connection);
-    var items = repository.Get();
-    
-    foreach(var item in items)
-    {
-        Console.WriteLine(item.Name);
-    }
-
-    connection.Close();
-}
-
-void ReadTags(SqlConnection connection)
-{
-    connection = OpenConnection();
-
-    var repository = new Repository<Tag>(connection);
-    var items = repository.Get();
-    
-    foreach(var item in items)
-    {
-        Console.WriteLine(item.Name);
-    }
-
-    connection.Close();
 }
