@@ -4,6 +4,8 @@ using Estudo_Dapper;
 using Estudo_Dapper.Screens.UserScreens;
 using Estudo_Dapper.Screens.RoleScreens;
 using Estudo_Dapper.Screens.Relatorios;
+using Estudo_Dapper.Screens.CateogryScreens;
+using Estudo_Dapper.Screens.PostScreens;
 
 const string CONNECTION_STRING = @"Server=localhost,1433;Database=Blog;User Id=sa;Password=1q2w3e4r@#$;TrustServerCertificate=True;";
 
@@ -26,9 +28,9 @@ static void Load()
     Console.WriteLine("1 - Gestão de usuário");
     Console.WriteLine("2 - Gestão de perfil");
     Console.WriteLine("3 - Gestão de categoria");
-    Console.WriteLine("4 - Gestão de Tag");
-    Console.WriteLine("5 - Vincular Perfil/Usuario");
-    Console.WriteLine("6 - Vincular Post/Tag");
+    Console.WriteLine("4 - Gestão de Post");
+    Console.WriteLine("5 - Gestão de Tag");
+    Console.WriteLine("6 - Vincular Perfil/Usuario");
     Console.WriteLine("7 - Relatórios");
     Console.WriteLine();
     Console.WriteLine();
@@ -43,10 +45,16 @@ static void Load()
         case 2:
             MenuRoleScreen.Load();
             break;
+        case 3:
+            MenuCategoryScreen.Load();
+            break;
         case 4:
-            MenuTagScreen.Load();
+            MenuPostScreen.Load();
             break;
         case 5:
+            MenuTagScreen.Load();
+            break;
+        case 6:
             AddUserRoleScreen.Load();
             break;
         case 7:

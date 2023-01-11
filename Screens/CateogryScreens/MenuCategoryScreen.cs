@@ -3,19 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Estudo_Dapper.Screens.Relatorios
+namespace Estudo_Dapper.Screens.CateogryScreens
 {
-    public class MenuRelatoriosScreen
+    public class MenuCategoryScreen
     {
         public static void Load()
         {
             Console.Clear();
-            Console.WriteLine("Relatórios");
+            Console.WriteLine("Gestão de categorias");
             Console.WriteLine("--------------");
             Console.WriteLine("O que deseja fazer?");
             Console.WriteLine();
-            Console.WriteLine("1 - Listar usuários e suas roles");
-            Console.WriteLine("2 - Listar categorias e quantidade de posts");
+            Console.WriteLine("1 - Cadastrar categoria");
             Console.WriteLine();
             Console.WriteLine();
             var option = short.Parse(Console.ReadLine());
@@ -23,10 +22,7 @@ namespace Estudo_Dapper.Screens.Relatorios
             switch(option)
             {
                 case 1:
-                    ListUserRoleScreen.Load();
-                    break;
-                case 2:
-                    ListCategoryQuantityPosts.Load();
+                    CreateCategoryScreen.Load();
                     break;
                 default:
                     Load();
